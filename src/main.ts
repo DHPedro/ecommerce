@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
   const productList: HTMLElement | null = document.getElementById('product-list');
-
-  // Verifique se o elemento existe antes de manipulá-lo
   if (productList) {
     const productsData: { name: string; price: number }[] = [
       { name: 'Produto 1', price: 99.99 },
